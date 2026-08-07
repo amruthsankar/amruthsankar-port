@@ -92,7 +92,7 @@ export function Education() {
       title: "Higher Secondary (Plus Two)",
       org: "ABVHSS, Alappuzha",
       year: "2025",
-      badge: "97.25%"" KEAM 2026 RANK 3870",
+      badge: "97.25%, KEAM 2026 RANK 3870",
       note: "Science stream with a focus on physics and mathematics.",
     },
     {

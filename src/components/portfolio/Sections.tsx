@@ -244,7 +244,7 @@ export function Skills() {
 export function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
-      <SectionHeading eyebrow="Projects" title="Coming soon" />
+      <SectionHeading eyebrow="Featured Projects" title="Coming soon" />
       <Reveal className="glass relative overflow-hidden rounded-[2rem] px-6 py-16 text-center">
         <div
           aria-hidden

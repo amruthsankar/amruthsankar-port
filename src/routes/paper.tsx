@@ -25,7 +25,7 @@ function PaperPage() {
       <div className="max-w-6xl mx-auto space-y-12">
         <div className="text-center space-y-3">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Papers & <span className="text-cyan-400">Works</span>
+            Projects & <span className="text-cyan-400">Papers</span>
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto text-sm md:text-base">
             A showcase of my research publications, technical reports, and academic projects.

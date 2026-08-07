@@ -6,14 +6,14 @@ export const Route = createFileRoute('/paper')({
 
 const papers = [
   {
-    title: 'Paper / Work Title 1',
-    description: 'Detailed description of your research paper or work here.',
+    title: 'Project 1',
+    description: 'coming soon.',
     tags: ['VLSI', 'Electronics', 'IEEE'],
     link: '#',
   },
   {
-    title: 'Paper / Work Title 2',
-    description: 'Detailed description of your research paper or work here.',
+    title: 'Project 2',
+    description: 'coming soon.',
     tags: ['Embedded Systems', 'C++'],
     link: '#',
   },

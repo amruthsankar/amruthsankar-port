@@ -80,36 +80,28 @@ export function About() {
 export function Education() {
   const items = [
     {
-      icon: BookOpen,
-      title: "SSLC",
-      org: "ABVHSS, Alappuzha",
-      year: "2023",
-      badge: "90–100%",
-      note: "Strong foundation in mathematics and science.",
-    },
-    {
-      icon: Award,
-      title: "Higher Secondary (Plus Two)",
-      org: "ABVHSS, Alappuzha",
-      year: "2025",
-      badge: "97.25%",
-      note: "Science stream with a focus on physics and mathematics.",
-    },
-    {
-      icon: Medal,
-      title: "KEAM",
-      org: "Kerala Engineering Entrance",
-      year: "2025",
-      badge: "Rank 3870",
-      note: "State entrance rank that secured admission to RIT Kottayam.",
-    },
-    {
       icon: GraduationCap,
       title: "Bachelor of Technology — ECE",
       org: "Rajiv Gandhi Institute of Technology, Kottayam",
       year: "2026–2030 (Expected)",
       badge: "Ongoing",
       note: "Electronics & Communication Engineering, first year.",
+    },
+    {
+      icon: Award,
+      title: "Higher Secondary (Plus Two)",
+      org: "ABVHSS, Alappuzha",
+      year: "2025",
+      badge: "97.25%"" KEAM 2026 RANK 3870",
+      note: "Science stream with a focus on physics and mathematics.",
+    },
+    {
+      icon: BookOpen,
+      title: "SSLC",
+      org: "ABVHSS, Alappuzha",
+      year: "2023",
+      badge: "90–100%",
+      note: "Strong foundation in mathematics and science.",
     },
   ];
 
@@ -366,9 +358,6 @@ export function Contact() {
           >
             <Mail size={17} className="text-accent" /> amruthsankarrp@gmail.com
           </a>
-          <div className="flex items-center gap-3 rounded-2xl border border-border bg-secondary/40 px-4 py-3.5 text-sm text-muted-foreground">
-            <MapPin size={17} className="text-accent" /> Alappuzha, Kerala
-          </div>
           <div className="grid gap-3">
             {socials.map((s) => (
               <a
@@ -384,6 +373,9 @@ export function Contact() {
                 <span className="text-muted-foreground">{s.handle}</span>
               </a>
             ))}
+          </div>
+          <div className="flex items-center gap-3 rounded-2xl border border-border bg-secondary/40 px-4 py-3.5 text-sm text-muted-foreground">
+            <MapPin size={17} className="text-accent" /> Alappuzha, Kerala
           </div>
         </Reveal>
 

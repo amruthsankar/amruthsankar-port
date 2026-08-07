@@ -1,8 +1,13 @@
 # AMRUTH SANKAR 
 
-instruction for me
-1.editing sections: src - > components -> portfolio -> Sections.tsx
-2.editing project page: src -> routes -> paper.tsx
+### instruction for me
+
+
+* editing sections: src - > components -> portfolio -> Sections.tsx
+
+* editing project page: src -> routes -> paper.tsx
+
+##
 <portfolio_prompt>
 
 
@@ -466,23 +471,8 @@ The final website should convey ambition, professionalism, leadership, technical
 
 </portfolio_prompt>
 
-This project was built with [Lovable](https://lovable.dev).
+This project was built by amruthsankar
 
-**Live app**: https://amruthsankar.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/9e5d4f24-acac-4878-8645-0fd5d33025f3).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
 git clone <this-repository-url>
 cd <repository-name>
 npm i

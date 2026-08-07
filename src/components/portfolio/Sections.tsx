@@ -186,9 +186,9 @@ export function Leadership() {
 
 export function Skills() {
   const technical = [
-    { name: "C Programming", icon: Cpu },
-    { name: "Python", icon: Brain },
-    { name: "Microsoft Office", icon: MonitorSmartphone },
+    { name: "C Programming", level: 50, icon: Cpu },
+    { name: "Python",level: 50, icon: Brain },
+    { name: "Microsoft Office",level: 50,  icon: MonitorSmartphone },
   ];
   const professional = [
     "Problem Solving",

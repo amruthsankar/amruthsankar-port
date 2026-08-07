@@ -1,7 +1,9 @@
 # AMRUTH SANKAR 
 
+instruction for me
+1.editing sections: src - > components -> portfolio -> Sections.tsx
+2.editing project page: src -> routes -> paper.tsx
 <portfolio_prompt>
-
 
 
 Create a premium, modern, responsive personal portfolio website for **AMRUTH SANKAR R P**, a first-year Electronics and Communication Engineering (ECE) student at Rajiv Gandhi Institute of Technology (RIT), Kottayam. The website should have a clean, futuristic, technology-inspired appearance with a **blue-themed color palette**, smooth animations, glassmorphism effects, subtle gradients, rounded UI components, and a professional yet youthful aesthetic. The design must be fully responsive, optimized for desktop, tablet, and mobile devices.

@@ -34,7 +34,7 @@ export function Nav() {
         <div className="glass border-x-0 border-t-0">
           <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
             <a href="#home" className="font-display text-sm font-bold tracking-wide sm:text-base">
-              AMRUTH<span className="text-accent">.</span>
+              AMRUTH'S PORTFOLIO<span className="text-accent">.</span>
             </a>
             <ul className="hidden items-center gap-1 lg:flex">
               {links.map((l) => (

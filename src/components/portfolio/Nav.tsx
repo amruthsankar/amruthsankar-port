@@ -39,12 +39,21 @@ export function Nav() {
             <ul className="hidden items-center gap-1 lg:flex">
               {links.map((l) => (
                 <li key={l.href}>
-                  <a
-                    href={l.href}
-                    className="rounded-full px-3.5 py-2 text-sm text-muted-foreground transition-colors hover:bg-secondary/60 hover:text-foreground"
-                  >
-                    {l.label}
-                  </a>
+                  {l.href.startsWith('/') ? (
+                    <Link
+                      to={l.href}
+                      className="rounded-full px-3.5 py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+                    >
+                      {l.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={l.href}
+                      className="rounded-full px-3.5 py-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+                    >
+                      {l.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>

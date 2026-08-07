@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, ArrowUp } from "lucide-react";
 import { cn } from "@/lib/utils";

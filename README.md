@@ -1,4 +1,4 @@
- AMRUTH SANKAR 
+# AMRUTH SANKAR 
 
 <portfolio_prompt>
 

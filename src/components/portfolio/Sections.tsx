@@ -186,9 +186,21 @@ export function Leadership() {
 
 export function Skills() {
   const technical = [
-  { name: "C Programming", level: "Intermediate", icon: Cpu },
-  { name: "Python", level: "Beginner", icon: Brain },
-  { name: "Microsoft Office", level: "Advanced", icon: MonitorSmartphone },
+  { name: "C Programming",
+    level: "Intermediate",
+    icon: Cpu,
+    tags: ["Data Structures", "Pointers", "Arrays"] 
+  },
+  { name: "Python",
+    level: "Beginner",
+    icon: Brain,
+    tags: ["Data Classes ", "List Comprehensions & Advanced Slicing"]
+  },
+  { name: "Microsoft Office",
+    level: "Advanced",
+    icon: MonitorSmartphone,
+    tags: ["Excel", "PowerPoint", "Word"]
+  },
 ];
   const professional = [
     "Problem Solving",

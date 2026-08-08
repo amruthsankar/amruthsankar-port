@@ -216,12 +216,6 @@ export function Skills() {
                 </span>
                 <span className="text-sm font-medium text-accent">{s.level}</span>
               </div>
-              <div className="mt-4 h-2 overflow-hidden rounded-full bg-secondary">
-                <div
-                  className="h-full rounded-full bg-gradient-to-r from-primary to-accent"
-                  style={{ width: `${s.level}%` }}
-                />
-              </div>
             </Reveal>
           ))}
         </div>

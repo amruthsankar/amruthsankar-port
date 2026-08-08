@@ -186,10 +186,10 @@ export function Leadership() {
 
 export function Skills() {
   const technical = [
-    { name: "C Programming", level: 50, icon: Cpu },
-    { name: "Python",level: 50, icon: Brain },
-    { name: "Microsoft Office",level: 50,  icon: MonitorSmartphone },
-  ];
+  { name: "C Programming", level: "Intermediate", icon: Cpu },
+  { name: "Python", level: "Intermediate", icon: Brain },
+  { name: "Microsoft Office", level: "Intermediate", icon: MonitorSmartphone },
+];
   const professional = [
     "Problem Solving",
     "Leadership",
@@ -214,7 +214,7 @@ export function Skills() {
                 <span className="flex items-center gap-3 font-display text-sm font-semibold">
                   <s.icon size={18} className="text-accent" /> {s.name}
                 </span>
-                <span className="text-sm text-muted-foreground">{s.level}%</span>
+                <span className="text-sm font-medium text-accent">{s.level}</span>
               </div>
               <div className="mt-4 h-2 overflow-hidden rounded-full bg-secondary">
                 <div

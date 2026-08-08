@@ -222,11 +222,23 @@ export function Skills() {
         <div className="space-y-4">
           {technical.map((s, i) => (
             <Reveal key={s.name} delay={i * 100} className="glass rounded-3xl p-6">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between mb-3">
                 <span className="flex items-center gap-3 font-display text-sm font-semibold">
                   <s.icon size={18} className="text-accent" /> {s.name}
                 </span>
                 <span className="text-sm font-medium text-accent">{s.level}</span>
+              </div>
+
+              {/*Sub-skill tags filling the space */}
+              <div className="flex flex-wrap gap-1.5 mt-2">
+                {s.tags?.map((tag, idx) => (
+                  <span
+                    key={idx}
+                    className="text-xs px-2 py-0.5 rounded-full bg-secondary/60 text-muted-foreground border border-border/40 font-normal"
+                  >
+                    {tag}
+                  </span>
+                ))}
               </div>
             </Reveal>
           ))}

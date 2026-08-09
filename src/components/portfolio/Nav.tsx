@@ -5,11 +5,10 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "#about", label: "About" },
-  { href: "#education", label: "Education" },
-  { href: "#leadership", label: "Leadership" },
-  { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Featured Projects" },
   { href: "/paper", label: "Works" },
+  { href: "#education", label: "Education" },
+  { href: "#skills", label: "Skills" },
   { href: "#goals", label: "Goals" },
 ];
 

@@ -23,6 +23,8 @@ import {
 } from "lucide-react";
 import { Reveal, SectionHeading } from "./Reveal";
 
+
+
 export function About() {
   const milestones = [
     { icon: Trophy, title: "97.25% in Higher Secondary", text: "Consistent academic performance built on structured study routines." },
@@ -76,6 +78,43 @@ export function About() {
     </section>
   );
 }
+
+
+
+export function Projects() {
+  return (
+    <section id="projects" className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
+      <SectionHeading eyebrow="Featured Projects" title="Coming soon" />
+      <Reveal className="glass relative overflow-hidden rounded-[2rem] px-6 py-16 text-center">
+        <div
+          aria-hidden
+          className="animate-glow pointer-events-none absolute -top-20 left-1/2 size-72 -translate-x-1/2 rounded-full bg-primary/25 blur-[90px]"
+        />
+        <span className="animate-float relative mx-auto grid size-16 place-items-center rounded-3xl bg-primary/15 text-accent">
+          <Cpu size={28} />
+        </span>
+        <p className="relative mx-auto mt-7 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+          &ldquo;Exciting engineering projects and innovations will be showcased here as I continue
+          my academic journey.&rdquo;
+        </p>
+        <div className="relative mx-auto mt-10 grid max-w-3xl gap-4 sm:grid-cols-3">
+          {["Embedded Systems", "Digital Design", "VLSI Explorations"].map((p) => (
+            <div
+              key={p}
+              className="rounded-2xl border border-dashed border-border/80 bg-secondary/30 px-4 py-8 text-xs uppercase tracking-[0.16em] text-muted-foreground"
+            >
+              {p}
+            </div>
+          ))}
+        </div>
+      </Reveal>
+    </section>
+  );
+}
+
+
+
+
 
 export function Education() {
   const items = [
@@ -136,6 +175,8 @@ export function Education() {
   );
 }
 
+
+
 export function Leadership() {
   const highlights = [
     { icon: Users, label: "Leadership" },
@@ -149,8 +190,8 @@ export function Leadership() {
   return (
     <section id="leadership" className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
       <SectionHeading
-        eyebrow="Leadership & Experience"
-        title="Leading through service"
+        eyebrow="Experience"
+        title="Growth & Impact"
         description="Two years with the National Service Scheme shaped how I work with people."
       />
       <Reveal className="glass rounded-3xl p-7 sm:p-9">
@@ -183,6 +224,9 @@ export function Leadership() {
     </section>
   );
 }
+
+
+
 
 export function Skills() {
   const technical = [
@@ -259,36 +303,8 @@ export function Skills() {
   );
 }
 
-export function Projects() {
-  return (
-    <section id="projects" className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
-      <SectionHeading eyebrow="Featured Projects" title="Coming soon" />
-      <Reveal className="glass relative overflow-hidden rounded-[2rem] px-6 py-16 text-center">
-        <div
-          aria-hidden
-          className="animate-glow pointer-events-none absolute -top-20 left-1/2 size-72 -translate-x-1/2 rounded-full bg-primary/25 blur-[90px]"
-        />
-        <span className="animate-float relative mx-auto grid size-16 place-items-center rounded-3xl bg-primary/15 text-accent">
-          <Cpu size={28} />
-        </span>
-        <p className="relative mx-auto mt-7 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          &ldquo;Exciting engineering projects and innovations will be showcased here as I continue
-          my academic journey.&rdquo;
-        </p>
-        <div className="relative mx-auto mt-10 grid max-w-3xl gap-4 sm:grid-cols-3">
-          {["Embedded Systems", "Digital Design", "VLSI Explorations"].map((p) => (
-            <div
-              key={p}
-              className="rounded-2xl border border-dashed border-border/80 bg-secondary/30 px-4 py-8 text-xs uppercase tracking-[0.16em] text-muted-foreground"
-            >
-              {p}
-            </div>
-          ))}
-        </div>
-      </Reveal>
-    </section>
-  );
-}
+
+
 
 export function Goals() {
   const goals = [
@@ -326,6 +342,8 @@ export function Goals() {
   );
 }
 
+
+
 export function Interests() {
   const interests = [
     { icon: Footprints, label: "Marathon Running" },
@@ -354,11 +372,14 @@ export function Interests() {
   );
 }
 
+
+
 const socials = [
   { icon: Linkedin, label: "LinkedIn", handle: "amruthsankar", href: "https://www.linkedin.com/in/amruthsankar" },
   { icon: Github, label: "GitHub", handle: "amruthsankar", href: "https://github.com/amruthsankar" },
   { icon: Sparkles, label: "X", handle: "@amruthsankar_", href: "https://x.com/amruthsankar_" },
 ];
+
 
 export function Contact() {
   return (

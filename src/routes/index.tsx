@@ -39,10 +39,10 @@ function Index() {
       <main>
         <Hero />
         <About />
+        <Projects />
         <Education />
         <Leadership />
         <Skills />
-        <Projects />
         <Goals />
         <Interests />
         <Contact />
